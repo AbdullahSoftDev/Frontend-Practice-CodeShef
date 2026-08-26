@@ -1,0 +1,51 @@
+<!--
+How to use radio buttons and checkboxes to give users a choice in a form.
+
+Key Takeaways
+
+Radio buttons (<input type="radio">) are for one choice only. The key to this is that all buttons in the same group must have the same name attribute.
+Checkboxes (<input type="checkbox">) are for multiple choices. The key here is that each one needs a different name attribute to be selected independently.
+Both use the value attribute to define the data that gets sent to the server.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Radio Buttons & Checkboxes</title>
+</head>
+<body>
+
+  <h1>User Preferences</h1>
+  <p>Please select your preferences below.</p>
+
+  <form>
+
+    <h2>Preferred Contact Method (Select one)</h2>
+    <input type="radio" id="email" name="contact_method" value="email">
+    <label for="email">Email</label><br>
+
+    <input type="radio" id="phone" name="contact_method" value="phone">
+    <label for="phone">Phone</label><br>
+
+    <input type="radio" id="sms" name="contact_method" value="sms">
+    <label for="sms">SMS</label><br>
+
+    <hr>
+
+    <h2>Newsletter Subscriptions (Select all that apply)</h2>
+    <input type="checkbox" id="daily" name="daily_newsletter" value="yes">
+    <label for="daily">Daily Newsletter</label><br>
+
+    <input type="checkbox" id="weekly" name="weekly_newsletter" value="yes">
+    <label for="weekly">Weekly Digest</label><br>
+
+    <input type="checkbox" id="promotions" name="promotions_newsletter" value="yes">
+    <label for="promotions">Promotions</label><br>
+
+    <hr>
+
+    <input type="submit" value="Save Preferences">
+
+  </form>
+
+</body>
+</html>
