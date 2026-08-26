@@ -1,0 +1,36 @@
+<!-- 
+Task - Simple Sign-Up Form
+Goal: Create a form that correctly uses radio buttons for questions with a single answer and checkboxes for questions with multiple answers.
+
+Instructions
+
+This code shows you how to build a basic sign-up form using the input types you've just learned about.
+
+How It Works
+
+<form>: This is the container for all your inputs. It tells the browser where to send the data.
+type="text": This is a simple box for a username. The name tells the form what to call this data, and the placeholder is a hint for the user.
+type="email": This box is for an email address. The browser will check that it looks like a real email before it sends the form.
+type="password": This box keeps what you type secret by showing dots instead of letters.
+type="submit": This is the button that sends all the information from the form. The text on the button comes from the value attribute.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Types</title>
+</head>
+<body>
+  <h1>Create an Account</h1>
+  <p>Please fill in the form below to sign up.</p>
+  <form>
+    <input type="text" name="username" placeholder="Choose a username">
+    <br><br>
+    <input type="email" name="email" placeholder="Enter your email">
+    <br><br>
+    <input type="password" name="password" placeholder="Create a password">
+    <br><br>
+    <input type="submit" value="Sign Up Now">
+  </form>
+</body>
+</html>
