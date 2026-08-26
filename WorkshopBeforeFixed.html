@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multi-Day Event Schedule</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 80%;
+                margin: 20px auto;
+            }
+            th, td {
+                border: 2px solid #333;
+                padding: 12px;
+                text-align: center;
+            }
+            th {
+                background-color: #4CAF50;
+                color: white;
+            }
+            td {
+                background-color: #f9f9f9;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Two-Day Event Schedule</h1>
+        <table>
+            <tr>
+                <th rowspan="2">Time</th>
+                <th colspan="2">Session Topics</th>
+            </tr>
+            <tr>
+                <th>Day 1</th>
+                <th>Day 2</th>
+            </tr>
+            <tr>
+                <td rowspan="2">9:00 AM</td>
+                <td colspan="2">Opening Keynote</td>
+            </tr>
+            <tr>
+                <td>Workshop A: HTML & CSS</td>
+                <td>Workshop B: JavaScript</td>
+            </tr>
+            <tr>
+                <td>10:30 AM</td>
+                <td colspan="2">Coffee Break</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Workshop C: Python</td>
+                <td>Workshop D: React</td>
+            </tr>
+        </table>
+    </body>
+</html>
