@@ -1,0 +1,38 @@
+<!-- 
+Task - Build an Event RSVP Form
+Goal: Create a form that correctly uses radio buttons for questions with a single answer and checkboxes for questions with multiple answers.
+
+Instructions
+
+Inside your form, create a single-choice question using radio buttons:
+The question should be "Will you attend the event?".
+The options should be "Yes" and "No".
+Remember to give both radio buttons the same name attribute to make them a group.
+Next, create a multiple-choice question using checkboxes:
+The question should be "Which sessions will you attend? (Select all that apply)".
+The options should be "Keynote Speech", "Workshop A", and "Workshop B".
+Remember to give each checkbox a different name attribute so a user can select more than one.
+Finally, add a submit button at the end of the form. Give it a descriptive text using the value attribute, like "Submit RSVP."
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Event Registration</title>
+</head>
+<body>
+   <h1>Event Registration</h1>
+   
+   <form>
+       <!-- Write your code here-->
+        <h2>Will you attend the event?</h2>
+        <input type="radio" name="option" value="Yes">Yes</input><br>
+        <input type="radio" name="option" value="No">No</input><br>
+        <h2>Which sessions will you attend? (Select all that apply)</h2>
+        <input type="checkbox" name="Keynote" value="Keynote Speech">Keynote Speech</input><br>
+        <input type="checkbox" name="WorkshopA" value="Workshop A">Workshop A</input><br>
+        <input type="checkbox" name="WorkshopB" value="Workshop B">Workshop B</input><br><br>
+        <input type="submit" value="Submit RSVP"></input>
+   </form>
+</body>
+</html>
