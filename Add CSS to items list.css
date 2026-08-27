@@ -1,0 +1,37 @@
+/* Add CSS to items list
+We have listed the fashion items available at our store but as of now, the items are not properly aligned so let's style our items now.
+
+Task
+In style.css file, do the following below line 28:
+
+Select the div element with class="Items" using class selector and set its padding-top and padding-bottom to 15px
+Select the table element with id="item-table" using id selector and set its width to 100% (It will take the complete width of its parent container) and text-align to center
+Select the img element with class="Item-img" using class selector and set its height to 64px
+Select the anchor element with class="Item-tag" using class selector and set its font-size to 14px
+Additionally, you can try adding the below CSS:
+
+.Item-tag:hover{ color: #806BDC; }
+
+It will change the color of our item tag whenever we hover on the tag. */
+
+/* Update the code below this comment */
+/* Update the code below this comment */
+.Items{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table{
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img{
+    height: 64px;
+}
+.Item-tag{
+    font-size: 14px;
+}
+.Item-tag:hover{
+    color: #806BDC;
+}
