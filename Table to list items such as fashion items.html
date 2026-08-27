@@ -1,0 +1,56 @@
+<!--Table to list fashion items
+Now, We have our Navbar. Let's proceed ahead and list the available fashion items at FASHION STORE.
+
+Task
+In index.html, do the following below line 10:
+
+add a main section
+inside the main element, add a div element with class="Items"
+Now, inside our div element, we will be adding a table with 2 rows and 2 columns.
+
+inside the div element, add a table element with id="item-table"
+Now, inside body of our table:
+
+Create the first row of our table with 2 columns. Each column should have an img element with src and alt as mentioned below and class="Item-img".
+src="https://cdn.codechef.com/download/Contest+images/ROTEST/tshirt.jpeg" and alt="T-Shirts"
+src="https://cdn.codechef.com/download/Contest+images/ROTEST/sunglasses.jpeg" and alt="Sun Glasses"
+Now, create the second row of our table with 2 columns. Each column should have an anchor element with href="" class="Item-tag" and it's corresponding text as mentioned below:
+T-Shirts
+Sun<br>Glasses
+-->
+
+<link rel="stylesheet" href="style.css">
+<body>
+	<header>
+	    <div class="NavBar">
+	        <a href="" id="navbar-title">
+	            FASHION STORE
+	        </a>
+	    </div>
+	</header>
+	<!-- Update the code below this comment -->
+	<main>
+		<div class="items" text-align="center">
+			<table id="item-table">
+				<tr>
+					<td>
+						<img src="https://cdn.codechef.com/download/Contest+images/ROTEST/tshirt.jpeg" class="Item-img" alt="T-Shirts"> 
+					</td>
+					<td>
+						<img src="https://cdn.codechef.com/download/Contest+images/ROTEST/sunglasses.jpeg" class="Item-img" alt="Sun Glasses"> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="" class="Item-tag">T-Shirts</a>
+					</td>
+					<td>
+						<a href="" class="Item-tag">Sun<br>Glasses</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</main>	
+	
+	
+</body>
