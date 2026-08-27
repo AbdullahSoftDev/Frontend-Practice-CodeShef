@@ -1,0 +1,42 @@
+/* dd CSS to Nav Bar
+After completing the HTML code for our navbar, we are now able to see a clickable text but if you notice then this text has some default CSS properties like margin and font family. So, first let's reset margin, padding and set a particular font-family of our choice for all the elements throughout the website.
+
+Note
+For better understanding of CSS problems, always observe the changes in the web page after adding a style to it instead of blindly following the mentioned steps to add the style.
+
+Task
+In style.css file, do the following below line 1:
+
+Set margin and padding to "0" and font family to "Arial, sans-serif" for all the elements we are going to use using the universal selector of CSS
+Now, let's give some common style to all the anchor tags we are going to use in our website.
+
+Using type selector for anchor tag, set its:
+
+color to "black"
+font-weight to "550"
+text-decoration to "none" (It will remove the line under the text so that our text will actually look like a text instead of looking like a link)*/
+/* Write your code here */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+header{
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+.NavBar{
+    padding-top: 18px;
+}
+#navbar-title{
+    color: white;
+    font-size: 25px;
+}
+/*  Update the code below this comment */
